@@ -4,11 +4,12 @@ public class Thing {
     private String name;
     private boolean isFragile;
 
-    public Thing(String name, boolean isFragile){
-        this.name=name;
-        this.isFragile=isFragile;
+    public Thing(String name, boolean isFragile) {
+        this.name = name;
+        this.isFragile = isFragile;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
 

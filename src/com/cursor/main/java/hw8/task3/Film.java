@@ -4,9 +4,9 @@ public class Film {
     private FilmGenre filmGenre;
     private double price;
 
-    public Film(FilmGenre filmGenre,double price){
-        this.filmGenre=filmGenre;
-        this.price=price;
+    public Film(FilmGenre filmGenre, double price) {
+        this.filmGenre = filmGenre;
+        this.price = price;
     }
 
     public FilmGenre getFilmGenre() {

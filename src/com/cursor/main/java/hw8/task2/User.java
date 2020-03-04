@@ -7,10 +7,10 @@ public class User {
     private LocalDate loginDate;
     private String team;
 
-    public User(String email, LocalDate loginDate, String team){
-        this.email=email;
-        this.loginDate=loginDate;
-        this.team=team;
+    public User(String email, LocalDate loginDate, String team) {
+        this.email = email;
+        this.loginDate = loginDate;
+        this.team = team;
     }
 
     public String getEmail() {

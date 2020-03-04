@@ -5,8 +5,8 @@ import java.util.List;
 public class Box {
     private List<Thing> boxWithThings;
 
-    public Box (List<Thing> boxWithThings){
-        this.boxWithThings=boxWithThings;
+    public Box(List<Thing> boxWithThings) {
+        this.boxWithThings = boxWithThings;
     }
 
     public List<Thing> getBoxWithThings() {
