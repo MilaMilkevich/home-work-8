@@ -20,7 +20,7 @@ public class UsersFilter {
 
     public static void usersFilter() {
         List<User> users = buildUserList();
-        Map<String, List<String>> teamOfuser = users.stream()
+        Map<String, List<String>> teamOfUser = users.stream()
                 .filter(user -> user.getLoginDate().isAfter(LocalDate.of(2020, 1, 5).minusDays(7)))
                 .collect(Collectors.groupingBy(User::getTeam, Collectors.mapping(User::getEmail, Collectors.toList())));
         System.out.println(teamOfuser);
